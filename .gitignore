@@ -1,0 +1,114 @@
+# ============================================================
+# CVI-HazardFusion — .gitignore
+# ============================================================
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+MANIFEST
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.env
+.virtualenv/
+pipenv/
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+*.ipynb~
+
+# ---- Generated output files ----
+outputs/*.png
+outputs/*.html
+outputs/*.csv
+outputs/*.json
+outputs/*.geojson
+outputs/*.tif
+outputs/*.tiff
+outputs/*.nc
+
+# ---- Data files (large; use Git LFS or DVC for these) ----
+data/*.geojson
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.cpg
+data/*.gpkg
+data/*.tif
+data/*.tiff
+
+# ---- Google Earth Engine credentials ----
+.config/earthengine/
+credentials
+gee_service_account.json
+service_account_key.json
+*.json.key
+
+# ---- OS-generated files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---- IDE and editor files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.ropeproject/
+
+# ---- pytest / testing ----
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+nosetests.xml
+
+# ---- mypy / type checking ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- Distribution / packaging ----
+*.tar.gz
+*.zip
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+.temp/
+tmp/
