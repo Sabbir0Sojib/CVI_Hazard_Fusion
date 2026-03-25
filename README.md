@@ -221,7 +221,7 @@ Full district rankings are available in [outputs/drs_results.csv](outputs/drs_re
 
 ### 2022 Sylhet Flood Cross-Reference
 
-The model was retrospectively validated against the June 2022 Sylhet–Sunamganj mega-flood — Bangladesh's worst flood in over 100 years, displacing 7.2 million people.
+The model was retrospectively validated against the June 2022 Sylhet–Sunamganj mega-flood, Bangladesh's worst flood in over 100 years, displacing 7.2 million people.
 
 When re-run with June 2022 input dates:
 
@@ -273,7 +273,7 @@ For the underlying DRS methodology, also cite:
 
 ## License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License see [LICENSE](LICENSE) for details.
 
 The methodology, code, and outputs are freely available for adaptation to other South and Southeast Asian contexts (Nepal, Myanmar, Pakistan, Vietnam).
 
