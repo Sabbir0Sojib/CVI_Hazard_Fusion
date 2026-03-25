@@ -30,7 +30,7 @@
 Bangladesh is one of the world's most climate-exposed nations, facing concurrent flood, drought, and landslide hazards across its 64 administrative districts. Despite this, national disaster risk management suffers from three structural gaps:
 
 - **Static CVI maps**: The national Climate Vulnerability Index is updated at most once per year, meaning risk assessments are always months out of date when disasters strike.
-- **Single-hazard early warning**: Existing systems (FFWC flood alerts, BWDB gauges) are siloed — they warn on one hazard at a time, missing compound disaster scenarios where flood risk is amplified by pre-existing drought stress or unstable slopes.
+- **Single-hazard early warning**: Existing systems (FFWC flood alerts, BWDB gauges) are siloed they warn on one hazard at a time, missing compound disaster scenarios where flood risk is amplified by pre-existing drought stress or unstable slopes.
 - **No automated fusion layer**: No operational tool automatically combines vulnerability baselines with live satellite observations, forcing analysts to integrate data manually under time pressure during crises.
 
 The result: resource pre-positioning decisions are made on stale data, high-vulnerability populations in simultaneously flood-prone and poverty-exposed districts receive delayed response, and LoGIC's BDT 1.6 billion adaptive social protection budget is allocated without real-time spatial intelligence.
@@ -39,7 +39,7 @@ The result: resource pre-positioning decisions are made on stale data, high-vuln
 
 ## The Solution
 
-**CVI-HazardFusion** closes this gap by fusing the UNDP LoGIC Climate Vulnerability Index with real-time satellite observations from Sentinel-1, MODIS, SRTM, CHIRPS, WorldPop, VIIRS, and JRC — producing a **Dynamic Risk Score (DRS)** for all 64 Bangladesh districts, updated every 24–48 hours, fully automated via Google Earth Engine.
+**CVI-HazardFusion** closes this gap by fusing the UNDP LoGIC Climate Vulnerability Index with real-time satellite observations from Sentinel-1, MODIS, SRTM, CHIRPS, WorldPop, VIIRS, and JRC producing a **Dynamic Risk Score (DRS)** for all 64 Bangladesh districts, updated every 24–48 hours, fully automated via Google Earth Engine.
 
 ### Dynamic Risk Score Formula
 
